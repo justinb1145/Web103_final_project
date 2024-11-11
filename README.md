@@ -1,8 +1,8 @@
-# [your app name here]
+# [Entree]
 
 CodePath WEB103 Final Project
 
-Designed and developed by: [your names here]
+Designed and developed by: [Justin Bradshaw]
 
 🔗 Link to deployed app:
 
