@@ -47,4 +47,4 @@ PostgreSQL, ExpressJS, NodeJS, PassportJS
 
 ## Installation Instructions
 
-[Clone the repository: git clone https://github.com/justinb1145/Web103_final_project_Justin_Bradshaw.git] [Install dependencies: npm install] [Run the app: npm start]
+[Clone the repository: git clone https://github.com/justinb1145/Web103_final_project_Justin_Bradshaw.git] and install dependencies w/ "npm install". Run the app using "npm start"]
