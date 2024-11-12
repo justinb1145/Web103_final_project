@@ -4,11 +4,47 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 ## Create the List of Tables
 
-[👉🏾👉🏾👉🏾 List each table in your diagram]
+TABLE chefs {
+    chef_id varchar [primary key]
+    name varchar
+    bio text
+    created_at timestamp
+}
+
+
+      TABLE recipes {
+    recipe_id varchar [primary key]
+    chef_id integer
+    name varchar
+    description text
+    cuisine_id integer
+    difficulty varchar
+    rating integer
+    prep_time integer
+    cook_time integer
+    created_at timestamp
+}
+
+  TABLE ingredients {
+    ingredient_id varchar [primary key]
+    name varchar
+    type varchar
+    created_at timestamp
+}
+
+  TABLE recipe_ingredients {
+    recipe_ingredient_id varchar [primary key]
+    recipe_id integer
+    ingredient_id integer
+    quantity varchar
+    unit varchar
+    created_at timestamp
+}
 
 ## Add the Entity Relationship Diagram
 
-[👉🏾👉🏾👉🏾 Include an image or images of the diagram below. You may also wish to use the following markdown syntax to outline each table, as per your preference.]
+![image](https://github.com/user-attachments/assets/f80b81a7-b085-4f2d-b930-7db6e5b5a98a)
+
 
 | Column Name | Type | Description |
 |-------------|------|-------------|
