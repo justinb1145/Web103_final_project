@@ -20,6 +20,7 @@ An app where you can search and customize your own set of favorite recipes as we
 
 Frontend:
 React, Font Awesome
+
 Backend:
 PostgreSQL, ExpressJS, NodeJS, PassportJS
 ## Features
